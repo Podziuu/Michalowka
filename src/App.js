@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
+import Home from './components/Home';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
-    <div>
+    <div className="font-roboto">
       <NavBar/>
+      <Home/>
+      {/* <AboutUs/> */}
     </div>
   );
 }
